@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-----------------OPINIONS ON ADDING PROJECT TITLES----------------->
+
+<div class="project">
+    <section>
+        <h1 style="text-align:center;">
+            Featured Projects
+        </h1>
+        <hr style="border:1px solid rgb(0, 187, 255)">
+    </section>
+    <h3>
+        Weather Prediction
+    </h3>
+    <section class="capstone">
+        <img src="static/monthly.png" style="width:430px;height:230px">
+        <img src="static/seasonal.png" style="width:430px;height:230px">
+    </section>
+    <section>
+        <h4>
+            The graphs above show snippets of my weather prediciton application. The application was developed using Python 
+            and its libraries. The program is hosted on Streamlit to create the web application. The application gives the option 
+            to sign up for an account or log in to an existing account. Upon logging in, the user is able to access multiple tabs to 
+            view our temperature data. The tabs consist of: the average temperatures by season, the average temperature by year, the 
+            temperature each day by month, and temperature predictions. The following tabs consist of a slider to view these 
+            temperatures by each year: seasonal temperatures and monthly temperatures. The temperature prediction allows the user 
+            to select a month, day, and year, and will output the predicted temperature value for that date. To access this application 
+            click <a href="https://share.streamlit.io/rylanmattocks/capstoneproject/main/wgumain.py">here</a>.
+        </h4>
+    </section>
+    <h3>
+        Chatbot
+    </h3>
+    <section class="chatbot">
+        <img src="static/chatbot1.png" style="width:323px;height:430px;">
+        <img src="static/chatbot2.png" style="width:323px;height:430px;">
+        <img src="static/chatbot3.png" style="width:323px;height:430px;">
+    </section>
+    <section>
+        <h4>
+            The interaction above shows a possible interaciton with my chatbot. The chatbot was developed as a career selection tool. 
+            This was programmed using AIML and deployed on pandorabots. The chatbot suggests career paths by either displaying all five 
+            careers or offering a survey to suggest one. Each career displays a brief description of the job and provides a link to a 
+            webpage that describes the job in more detail. This chatbot can be accessed by creating a free acount on pandorabots and 
+            searching the <a href="https://home.pandorabots.com/dash/bot-directory"> directory</a> for C951 Software Jobs.
+        </h4>
+    </section>
+    <h3>
+        Dictionary
+    </h3>
+    <section class="jdictionary">
+        <img src="static/jdictionaryhome.png" style="width:430px;height:230px">
+        <img src="static/jdictionarysearch.png" style="width:430px;height:230px">
+    </section>
+    <section>
+        <h4>
+            The above search tool is a dictionary with English to Japanese conversion. The user inputs a word to search and the webpage 
+            displays the word, its meaning, and the Japanese translation. The translation consists of the kanji, if applicable, katakana, 
+            hiragana, and romaji. To use this application, you must download the files and run the server on your machine via localhost. All 
+            of the required files can be found on my GitHub linked below.
+        </h4>
+    </section>
+
+
+
+
+
+    <section>
+        <h3 style="text-align: center;">
+            For more information on these projects and to view all my projects, visit my GitHub 
+            <a href="https://github.com/RylanMattocks">here</a>.
+        </h3>
+    </section>
+</div>
+
+{% endblock %}
